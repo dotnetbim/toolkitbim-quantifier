@@ -63,11 +63,13 @@ In the fast-paced world of construction, time is money. Traditional quantity tak
 
 ---
 
-## 📸 Visual Gallery / گالری تصاویر
+## 📸 Screenshots / تصاویر محیط برنامه و گزارش‌ها
 
 #### 🖥️ Main Interface / محیط اصلی برنامه
-![Main Window](Screenshots/main-window.png)
-*Main dashboard with real-time quantity takeoff and visual charts*
+| Persian (فارسی) | English |
+| :---: | :---: |
+| ![Main Window FA](Screenshots/main-window-FA.png) | ![Main Window EN](Screenshots/main-window-EN.png) |
+| *داشبورد اصلی با متره بلادرنگ و نمودارهای بصری* | *Main dashboard with real-time quantity takeoff and visual charts* |
 
 ---
 
@@ -90,70 +92,48 @@ In the fast-paced world of construction, time is money. Traditional quantity tak
 ---
 
 #### 📊 Excel Export / خروجی اکسل
-![Excel Output](Screenshots/excel-output.png)
-*CSV/Excel export compatible with accounting software (خروجی سازگار با نرم‌افزارهای حسابداری)*
+<div align="center">
+  <img src="Screenshots/excel-output.png" alt="Excel Output" width="100%">
+  <br>
+  <em>CSV/Excel export compatible with accounting software (خروجی سازگار با نرم‌افزارهای حسابداری)</em>
+</div>
 
 ---
 
-## ⚙️ SYSTEM REQUIREMENTS
-- **Revit Version:** 2022 or later
-- **Operating System:** Windows 10 / 11 (64-bit)
-- **RAM:** 8 GB minimum (16 GB recommended)
-- **Disk Space:** 50 MB
-- **Internet:** NOT required (Fully Offline)
+## ⚙️ System Requirements / پیش‌نیازهای سیستم
+- **Revit Version / نسخه رویت:** 2022 or later / ۲۰۲۲ و بالاتر
+- **Operating System / سیستم‌عامل:** Windows 10 / 11 (64-bit) / ویندوز ۱۰ / ۱۱ (۶۴ بیتی)
+- **RAM / رم:** 8 GB minimum (16 GB recommended) / حداقل ۸ گیگابایت (۱۶ پیشنهاد می‌شود)
+- **Disk Space / فضای دیسک:** 50 MB / ۵۰ مگابایت
+- **Internet / اینترنت:** NOT required (Fully Offline) / نیاز نیست (کاملاً آفلاین)
 
-### 🚀 INSTALLATION
-1. Close Revit completely (Save your work first!).
-2. Run `ToolkitBIM-Quantifier-Setup.exe` (Right-click → "Run as administrator").
-3. Follow the installation wizard (Next → Install → Finish).
-4. Open Revit → Look for the **"BIM Quantifier"** tab in the ribbon.
+---
 
-### 🔑 LICENSE ACTIVATION
-1. Open Revit and click the "BIM Quantifier Pro" button.
-2. The activation dialog appears. Copy your **"Hardware ID"**.
-3. Send the Hardware ID to: 📧 **mj.qahremani@gmail.com**
-4. Receive your unique license key and enter it in the dialog.
-5. Start quantifying! 🎉
+## 🚀 Installation / راهنمای نصب
+1. Close Revit completely (Save your work first!) / رویت را کاملاً ببندید (ابتدا کار خود را ذخیره کنید).
+2. Run `ToolkitBIM-Quantifier-Setup.exe` (Right-click → "Run as administrator") / فایل نصب را اجرا کنید (کلیک راست → Run as administrator).
+3. Follow the installation wizard (Next → Install → Finish) / مراحل نصب را دنبال کنید.
+4. Open Revit → Look for the **"BIM Quantifier"** tab in the ribbon / رویت را باز کنید → به دنبال تب **"BIM Quantifier"** در ریبون باشید.
 
-*(Free version available for testing up to 50 elements).*
+---
 
-### 📞 SUPPORT & LICENSING
-For pricing inquiries, team licenses, or technical support:
+## 🔑 License Activation / فعال‌سازی لایسنس
+1. Open Revit and click the "BIM Quantifier Pro" button / رویت را باز کرده و روی دکمه "BIM Quantifier Pro" کلیک کنید.
+2. The activation dialog appears. Copy your **"Hardware ID"** / پنجره فعال‌سازی باز می‌شود. **"Hardware ID"** خود را کپی کنید.
+3. Send the Hardware ID to: 📧 **mj.qahremani@gmail.com** / شناسه سخت‌افزاری را به این ایمیل ارسال کنید.
+4. Receive your unique license key and enter it in the dialog / کلید لایسنس اختصاصی خود را دریافت و در پنجره وارد کنید.
+5. Start quantifying! 🎉 / از پلاگین استفاده کنید! 🎉
+
+*(Free version available for testing up to 50 elements / نسخه رایگان برای تست تا ۵۰ عنصر در دسترس است).*
+
+---
+
+## 📞 Support & Licensing / پشتیبانی و استعلام قیمت
+For pricing inquiries, team licenses, or technical support / برای استعلام قیمت، لایسنس تیمی یا پشتیبانی فنی:
 - 📧 **Email:** mj.qahremani@gmail.com
 - 💬 **Telegram:** [@toolkitbim](https://t.me/toolkitbim)
 - 💼 **LinkedIn:** [Mohamad Javad Ghahremani](https://linkedin.com/in/mohamad-qahremani-0a581b3b2)
-- ⏰ **Support Hours:** Sat-Wed (9 AM - 6 PM), Thu (9 AM - 1 PM)
-
----
-
-## ⚙️ پیش‌نیازهای سیستم
-- **نسخه رویت:** ۲۰۲۲ و بالاتر
-- **سیستم‌عامل:** ویندوز ۱۰ / ۱۱ (۶۴ بیتی)
-- **رم:** حداقل ۸ گیگابایت (۱۶ گیگابایت پیشنهاد می‌شود)
-- **فضای دیسک:** ۵۰ مگابایت
-- **اینترنت:** نیاز نیست (کاملاً آفلاین)
-
-### 🚀 راهنمای نصب
-۱. رویت را کاملاً ببندید (ابتدا کار خود را ذخیره کنید).
-۲. فایل `ToolkitBIM-Quantifier-Setup.exe` را اجرا کنید (کلیک راست → Run as administrator).
-۳. مراحل نصب را دنبال کنید (Next → Install → Finish).
-۴. رویت را باز کنید → به دنبال تب **"BIM Quantifier"** در ریبون باشید.
-
-### 🔑 فعال‌سازی لایسنس
-۱. رویت را باز کرده و روی دکمه "BIM Quantifier Pro" کلیک کنید.
-۲. پنجره فعال‌سازی باز می‌شود. **"Hardware ID"** خود را کپی کنید.
-۳. شناسه سخت‌افزاری را به این ایمیل ارسال کنید: 📧 **mj.qahremani@gmail.com**
-۴. کلید لایسنس اختصاصی خود را دریافت و در پنجره وارد کنید.
-۵. از پلاگین استفاده کنید! 🎉
-
-*(نسخه رایگان برای تست تا ۵۰ عنصر در دسترس است).*
-
-### 📞 پشتیبانی و استعلام قیمت
-برای استعلام قیمت، لایسنس تیمی یا پشتیبانی فنی:
-- 📧 **ایمیل:** mj.qahremani@gmail.com
-- 💬 **تلگرام:** [@toolkitbim](https://t.me/toolkitbim)
-- 💼 **لینکدین:** [محمد جواد قهرمانی](https://linkedin.com/in/mohamad-qahremani-0a581b3b2)
-- ⏰ **ساعات پشتیبانی:** شنبه تا چهارشنبه (۹ صبح تا ۶ عصر)، پنجشنبه (۹ صبح تا ۱ ظهر)
+- ⏰ **Support Hours:** Sat-Wed (9 AM - 6 PM), Thu (9 AM - 1 PM) / شنبه تا چهارشنبه (۹ تا ۱۸)، پنجشنبه (۹ تا ۱۳)
 
 ---
 
