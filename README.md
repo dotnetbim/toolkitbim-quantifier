@@ -3,7 +3,6 @@
 # 🏗️ ToolkitBIM Quantifier (BIM Quantifier Pro)
 
 ### Professional BIM Quantity Takeoff & Cost Estimation for Revit
-### پلاگین حرفه‌ای متره برآورد و قیمت‌گذاری رویت
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![Revit](https://img.shields.io/badge/Revit-2022--2025-green)
@@ -15,22 +14,33 @@
 [💬 Telegram Support](https://t.me/toolkitbim) | 
 [💼 LinkedIn](https://linkedin.com/in/mohamad-qahremani-0a581b3b2)
 
+---
+
+### 🌐 Select Your Language
+
+[🇬🇧 English Documentation](#-english)  •  [🇮🇷 مستندات فارسی](#-فارسی)
+
 </div>
 
 ---
 
-## 🇬🇧 English
+<a name="english"></a>
+
+# 🇬🇧 English
 
 ### 🎯 WHY BIM QUANTIFIER PRO?
+
 In the fast-paced world of construction, time is money. Traditional quantity takeoff methods are time-consuming, error-prone, and difficult to update. 
 
 **ToolkitBIM Quantifier** transforms this process:
+
 - ✅ Complete takeoff in **UNDER 1 MINUTE**
 - ✅ **100% ACCURACY** (direct from BIM model)
 - ✅ **AUTO-UPDATE** with model changes
 - ✅ **PROFESSIONAL PDF reports** with your company logo
 
 ### ✨ KEY FEATURES
+
 - 🏗️ **Comprehensive Takeoff:** Walls, Floors, Roofs, Doors, Windows (and more elements in future updates). Extracts Length, Area, Volume, and Openings.
 - 💰 **Smart Pricing:** Set prices by element type, apply waste factors automatically, and save pricing templates. Supports multiple currencies.
 - 📊 **Visual Dashboard:** Pie charts for cost distribution, bar charts for comparison, and real-time visualization.
@@ -41,18 +51,95 @@ In the fast-paced world of construction, time is money. Traditional quantity tak
 
 ---
 
-## 🇮🇷 فارسی
+### 📸 Interface & Reports
+
+#### 🖥️ Main Interface
+<div align="center">
+  <img src="Screenshots/main-window-EN.png" alt="Main Window English" width="100%">
+  <br>
+  <em>Main dashboard with real-time quantity takeoff and visual charts</em>
+</div>
+
+#### 📄 PDF Reports (English Version)
+
+| Page 1: Summary | Page 2: Detailed Tables |
+| :---: | :---: |
+| ![Report EN 1](Screenshots/report-sample-EN-1.png) | ![Report EN 2](Screenshots/report-sample-EN-2.png) |
+| **Page 3: Charts & Analytics** | **Page 4: Final Summary** |
+| ![Report EN 3](Screenshots/report-sample-EN-3.png) | ![Report EN 4](Screenshots/report-sample-EN-4.png) |
+
+#### 📊 Excel Export
+<div align="center">
+  <img src="Screenshots/excel-output.png" alt="Excel Output" width="100%">
+  <br>
+  <em>CSV/Excel export compatible with accounting software</em>
+</div>
+
+---
+
+### ⚙️ SYSTEM REQUIREMENTS
+
+- **Revit Version:** 2022 or later
+- **Operating System:** Windows 10 / 11 (64-bit)
+- **RAM:** 8 GB minimum (16 GB recommended)
+- **Disk Space:** 50 MB
+- **Internet:** NOT required (Fully Offline)
+
+### 🚀 INSTALLATION
+
+1. Close Revit completely (Save your work first!).
+2. Run `ToolkitBIM-Quantifier-Setup.exe` (Right-click → "Run as administrator").
+3. Follow the installation wizard (Next → Install → Finish).
+4. Open Revit → Look for the **"BIM Quantifier"** tab in the ribbon.
+
+### 🔑 LICENSE ACTIVATION
+
+1. Open Revit and click the "BIM Quantifier Pro" button.
+2. The activation dialog appears. Copy your **"Hardware ID"**.
+3. Send the Hardware ID to: 📧 **mj.qahremani@gmail.com**
+4. Receive your unique license key and enter it in the dialog.
+5. Start quantifying! 🎉
+
+*(Free version available for testing up to 50 elements).*
+
+### 📞 SUPPORT & LICENSING
+
+For pricing inquiries, team licenses, or technical support:
+
+- 📧 **Email:** mj.qahremani@gmail.com
+- 💬 **Telegram:** [@toolkitbim](https://t.me/toolkitbim)
+- 💼 **LinkedIn:** [Mohamad Javad Ghahremani](https://linkedin.com/in/mohamad-qahremani-0a581b3b2)
+- ⏰ **Support Hours:** Sat-Wed (9 AM - 6 PM), Thu (9 AM - 1 PM)
+
+---
+
+<a name="فارسی"></a>
+
+<div align="center">
+
+# 🇮🇷 فارسی
+
+### پلاگین حرفه‌ای متره برآورد و قیمت‌گذاری رویت
+
+[📥 دانلود آخرین نسخه](https://github.com/dotnetbim/toolkitbim-quantifier/releases/latest) | 
+[💬 پشتیبانی تلگرام](https://t.me/toolkitbim) | 
+[💼 لینکدین](https://linkedin.com/in/mohamad-qahremani-0a581b3b2)
+
+</div>
 
 ### 🎯 چرا ToolkitBIM Quantifier؟
+
 در دنیای پرشتاب ساخت‌وساز، زمان برابر با پول است. روش‌های سنتی متره برآورد زمان‌بر، دارای خطای انسانی و به‌روزرسانی آن‌ها دشوار است.
 
 **پلاگین ToolkitBIM Quantifier** این فرآیند را متحول می‌کند:
+
 - ✅ متره کامل در **کمتر از ۱ دقیقه**
 - ✅ **دقت ۱۰۰٪** (استخراج مستقیم از مدل BIM)
 - ✅ **به‌روزرسانی خودکار** با تغییرات مدل
 - ✅ **گزارش‌های PDF حرفه‌ای** همراه با لوگوی شرکت شما
 
 ### ✨ قابلیت‌های کلیدی
+
 - 🏗️ **متره جامع:** دیوار، کف، سقف، در و پنجره (و عناصر بیشتر در آپدیت‌های آینده). استخراج طول، مساحت، حجم و بازشوها.
 - 💰 **قیمت‌گذاری هوشمند:** تعیین قیمت بر اساس نوع عنصر، اعمال خودکار ضریب ضایعات و ذخیره الگوهای قیمت. پشتیبانی از چندین ارز.
 - 📊 **داشبورد بصری:** نمودار دایره‌ای برای توزیع هزینه، نمودار میله‌ای برای مقایسه و تجسم بلادرنگ.
@@ -63,77 +150,65 @@ In the fast-paced world of construction, time is money. Traditional quantity tak
 
 ---
 
-## 📸 Screenshots / تصاویر محیط برنامه و گزارش‌ها
+### 📸 تصاویر محیط برنامه و گزارش‌ها
 
-#### 🖥️ Main Interface / محیط اصلی برنامه
-| Persian (فارسی) | English |
-| :---: | :---: |
-| ![Main Window FA](Screenshots/main-window-FA.png) | ![Main Window EN](Screenshots/main-window-EN.png) |
-| *داشبورد اصلی با متره بلادرنگ و نمودارهای بصری* | *Main dashboard with real-time quantity takeoff and visual charts* |
-
----
-
-#### 📄 PDF Reports - Persian (گزارش‌های فارسی)
-| صفحه ۱: خلاصه (Summary) | صفحه ۲: جداول جزئیات (Detailed Tables) |
-| :---: | :---: |
-| ![Report FA 1](Screenshots/report-sample-FA-1.png) | ![Report FA 2](Screenshots/report-sample-FA-2.png) |
-| **صفحه ۳: نمودارها (Charts)** | **صفحه ۴: خلاصه نهایی (Final Summary)** |
-| ![Report FA 3](Screenshots/report-sample-FA-3.png) | ![Report FA 4](Screenshots/report-sample-FA-4.png) |
-
----
-
-#### 📄 PDF Reports - English
-| Page 1: Summary | Page 2: Detailed Tables |
-| :---: | :---: |
-| ![Report EN 1](Screenshots/report-sample-EN-1.png) | ![Report EN 2](Screenshots/report-sample-EN-2.png) |
-| **Page 3: Charts & Analytics** | **Page 4: Final Summary** |
-| ![Report EN 3](Screenshots/report-sample-EN-3.png) | ![Report EN 4](Screenshots/report-sample-EN-4.png) |
-
----
-
-#### 📊 Excel Export / خروجی اکسل
+#### 🖥️ محیط اصلی برنامه
 <div align="center">
-  <img src="Screenshots/excel-output.png" alt="Excel Output" width="100%">
+  <img src="Screenshots/main-window-FA.png" alt="محیط اصلی فارسی" width="100%">
   <br>
-  <em>CSV/Excel export compatible with accounting software (خروجی سازگار با نرم‌افزارهای حسابداری)</em>
+  <em>داشبورد اصلی با متره بلادرنگ و نمودارهای بصری</em>
+</div>
+
+#### 📄 گزارش‌های PDF (نسخه فارسی)
+
+| صفحه ۱: خلاصه | صفحه ۲: جداول جزئیات |
+| :---: | :---: |
+| ![گزارش FA 1](Screenshots/report-sample-FA-1.png) | ![گزارش FA 2](Screenshots/report-sample-FA-2.png) |
+| **صفحه ۳: نمودارها** | **صفحه ۴: خلاصه نهایی** |
+| ![گزارش FA 3](Screenshots/report-sample-FA-3.png) | ![گزارش FA 4](Screenshots/report-sample-FA-4.png) |
+
+#### 📊 خروجی اکسل
+<div align="center">
+  <img src="Screenshots/excel-output.png" alt="خروجی اکسل" width="100%">
+  <br>
+  <em>خروجی سازگار با نرم‌افزارهای حسابداری</em>
 </div>
 
 ---
 
-## ⚙️ System Requirements / پیش‌نیازهای سیستم
-- **Revit Version / نسخه رویت:** 2022 or later / ۲۰۲۲ و بالاتر
-- **Operating System / سیستم‌عامل:** Windows 10 / 11 (64-bit) / ویندوز ۱۰ / ۱۱ (۶۴ بیتی)
-- **RAM / رم:** 8 GB minimum (16 GB recommended) / حداقل ۸ گیگابایت (۱۶ پیشنهاد می‌شود)
-- **Disk Space / فضای دیسک:** 50 MB / ۵۰ مگابایت
-- **Internet / اینترنت:** NOT required (Fully Offline) / نیاز نیست (کاملاً آفلاین)
+### ⚙️ پیش‌نیازهای سیستم
 
----
+- **نسخه رویت:** ۲۰۲۲ و بالاتر
+- **سیستم‌عامل:** ویندوز ۱۰ / ۱۱ (۶۴ بیتی)
+- **رم:** حداقل ۸ گیگابایت (۱۶ گیگابایت پیشنهاد می‌شود)
+- **فضای دیسک:** ۵۰ مگابایت
+- **اینترنت:** نیاز نیست (کاملاً آفلاین)
 
-## 🚀 Installation / راهنمای نصب
-1. Close Revit completely (Save your work first!) / رویت را کاملاً ببندید (ابتدا کار خود را ذخیره کنید).
-2. Run `ToolkitBIM-Quantifier-Setup.exe` (Right-click → "Run as administrator") / فایل نصب را اجرا کنید (کلیک راست → Run as administrator).
-3. Follow the installation wizard (Next → Install → Finish) / مراحل نصب را دنبال کنید.
-4. Open Revit → Look for the **"BIM Quantifier"** tab in the ribbon / رویت را باز کنید → به دنبال تب **"BIM Quantifier"** در ریبون باشید.
+### 🚀 راهنمای نصب
 
----
+۱. رویت را کاملاً ببندید (ابتدا کار خود را ذخیره کنید).
+۲. فایل `ToolkitBIM-Quantifier-Setup.exe` را اجرا کنید (کلیک راست → Run as administrator).
+۳. مراحل نصب را دنبال کنید (Next → Install → Finish).
+۴. رویت را باز کنید → به دنبال تب **"BIM Quantifier"** در ریبون باشید.
 
-## 🔑 License Activation / فعال‌سازی لایسنس
-1. Open Revit and click the "BIM Quantifier Pro" button / رویت را باز کرده و روی دکمه "BIM Quantifier Pro" کلیک کنید.
-2. The activation dialog appears. Copy your **"Hardware ID"** / پنجره فعال‌سازی باز می‌شود. **"Hardware ID"** خود را کپی کنید.
-3. Send the Hardware ID to: 📧 **mj.qahremani@gmail.com** / شناسه سخت‌افزاری را به این ایمیل ارسال کنید.
-4. Receive your unique license key and enter it in the dialog / کلید لایسنس اختصاصی خود را دریافت و در پنجره وارد کنید.
-5. Start quantifying! 🎉 / از پلاگین استفاده کنید! 🎉
+### 🔑 فعال‌سازی لایسنس
 
-*(Free version available for testing up to 50 elements / نسخه رایگان برای تست تا ۵۰ عنصر در دسترس است).*
+۱. رویت را باز کرده و روی دکمه "BIM Quantifier Pro" کلیک کنید.
+۲. پنجره فعال‌سازی باز می‌شود. **"Hardware ID"** خود را کپی کنید.
+۳. شناسه سخت‌افزاری را به این ایمیل ارسال کنید: 📧 **mj.qahremani@gmail.com**
+۴. کلید لایسنس اختصاصی خود را دریافت و در پنجره وارد کنید.
+۵. از پلاگین استفاده کنید! 🎉
 
----
+*(نسخه رایگان برای تست تا ۵۰ عنصر در دسترس است).*
 
-## 📞 Support & Licensing / پشتیبانی و استعلام قیمت
-For pricing inquiries, team licenses, or technical support / برای استعلام قیمت، لایسنس تیمی یا پشتیبانی فنی:
-- 📧 **Email:** mj.qahremani@gmail.com
-- 💬 **Telegram:** [@toolkitbim](https://t.me/toolkitbim)
-- 💼 **LinkedIn:** [Mohamad Javad Ghahremani](https://linkedin.com/in/mohamad-qahremani-0a581b3b2)
-- ⏰ **Support Hours:** Sat-Wed (9 AM - 6 PM), Thu (9 AM - 1 PM) / شنبه تا چهارشنبه (۹ تا ۱۸)، پنجشنبه (۹ تا ۱۳)
+### 📞 پشتیبانی و استعلام قیمت
+
+برای استعلام قیمت، لایسنس تیمی یا پشتیبانی فنی:
+
+- 📧 **ایمیل:** mj.qahremani@gmail.com
+- 💬 **تلگرام:** [@toolkitbim](https://t.me/toolkitbim)
+- 💼 **لینکدین:** [محمد جواد قهرمانی](https://linkedin.com/in/mohamad-qahremani-0a581b3b2)
+- ⏰ **ساعات پشتیبانی:** شنبه تا چهارشنبه (۹ صبح تا ۶ عصر)، پنجشنبه (۹ صبح تا ۱ ظهر)
 
 ---
 
@@ -144,5 +219,7 @@ For pricing inquiries, team licenses, or technical support / برای استعل
 
 Built with ❤️ in Iran by **Mohamad Javad Ghahremani**  
 © 2026 ToolkitBIM (dotnetbim). All rights reserved.
+
+[⬆ Back to top](#toolkitbim-quantifier-bim-quantifier-pro)
 
 </div>
