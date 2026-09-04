@@ -39,6 +39,40 @@ In the fast-paced world of construction, time is money. Traditional quantity tak
 - 🌍 **Multi-Language:** Full Persian (RTL + Shamsi Calendar) & English (LTR + Gregorian Calendar).
 - 🔍 **Advanced Filters:** Filter by Level, Element Type, or use quick search.
 
+---
+
+### 📸 Screenshots / تصاویر محیط برنامه و گزارش‌ها
+
+#### 🖥️ Main Interface / محیط اصلی برنامه
+![Main Window](Screenshots/main-window.png)
+*Main dashboard with real-time quantity takeoff and visual charts*
+
+---
+
+#### 📄 PDF Reports - Persian (گزارش‌های فارسی)
+| صفحه ۱: خلاصه (Summary) | صفحه ۲: جداول جزئیات (Detailed Tables) |
+| :---: | :---: |
+| ![Report FA 1](Screenshots/report-sample-FA-1.png) | ![Report FA 2](Screenshots/report-sample-FA-2.png) |
+| **صفحه ۳: نمودارها (Charts)** | **صفحه ۴: خلاصه نهایی (Final Summary)** |
+| ![Report FA 3](Screenshots/report-sample-FA-3.png) | ![Report FA 4](Screenshots/report-sample-FA-4.png) |
+
+---
+
+#### 📄 PDF Reports - English
+| Page 1: Summary | Page 2: Detailed Tables |
+| :---: | :---: |
+| ![Report EN 1](Screenshots/report-sample-EN-1.png) | ![Report EN 2](Screenshots/report-sample-EN-2.png) |
+| **Page 3: Charts & Analytics** | **Page 4: Final Summary** |
+| ![Report EN 3](Screenshots/report-sample-EN-3.png) | ![Report EN 4](Screenshots/report-sample-EN-4.png) |
+
+---
+
+#### 📊 Excel Export / خروجی اکسل
+![Excel Output](Screenshots/excel-output.png)
+*CSV/Excel export compatible with accounting software (خروجی سازگار با نرم‌افزارهای حسابداری)*
+
+---
+
 ### ⚙️ SYSTEM REQUIREMENTS
 - **Revit Version:** 2022 or later
 - **Operating System:** Windows 10 / 11 (64-bit)
