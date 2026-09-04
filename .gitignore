@@ -1,0 +1,70 @@
+# ============================================
+# ToolkitBIM Quantifier - .gitignore
+# ============================================
+
+# --- فایل‌های نصب‌کننده (فقط در Release آپلود می‌شوند) ---
+*.exe
+*.msi
+*.zip
+*.rar
+*.7z
+
+# --- سورس کد C# (هرگز در این ریپو آپلود نشود) ---
+*.cs
+*.csproj
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# --- پوشه‌های بیلد Visual Studio ---
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bld/
+[Ll]og/
+[Ll]ogs/
+
+# --- فایل‌های موقت Visual Studio ---
+*.rsuser
+*.DotSettings.user
+.vs/
+*.vc.db
+*.vc.opendb
+
+# --- فایل‌های Rider / ReSharper ---
+.idea/
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# --- فایل‌های NuGet ---
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+*.nupkg
+*.snupkg
+
+# --- فایل‌های موقت ---
+~$*
+*~
+*.tmp
+*.log
+*.bak
+
+# --- فایل‌های سیستمی ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- فایل‌های حساس (هرگز آپلود نشوند) ---
+*.key
+*.pem
+*.pfx
+*.p12
+*secret*
+*password*
