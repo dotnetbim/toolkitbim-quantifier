@@ -33,11 +33,7 @@
             --border: #e2e8f0;
         }
         
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         
         body {
             font-family: 'Inter', 'Vazirmatn', sans-serif;
@@ -91,9 +87,7 @@
             transition: all 0.3s;
         }
         
-        .lang-switch:hover {
-            background: rgba(255,255,255,0.3);
-        }
+        .lang-switch:hover { background: rgba(255,255,255,0.3); }
         
         /* Hero Section */
         .hero {
@@ -103,10 +97,7 @@
             text-align: center;
         }
         
-        .hero-content {
-            max-width: 900px;
-            margin: 0 auto;
-        }
+        .hero-content { max-width: 900px; margin: 0 auto; }
         
         .hero h1 {
             font-size: 3rem;
@@ -159,54 +150,20 @@
             cursor: pointer;
         }
         
-        .btn-primary {
-            background: white;
-            color: var(--primary);
-        }
+        .btn-primary { background: white; color: var(--primary); }
+        .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
         
-        .btn-primary:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-        }
-        
-        .btn-secondary {
-            background: rgba(255,255,255,0.15);
-            color: white;
-            border: 2px solid rgba(255,255,255,0.3);
-        }
-        
-        .btn-secondary:hover {
-            background: rgba(255,255,255,0.25);
-        }
+        .btn-secondary { background: rgba(255,255,255,0.15); color: white; border: 2px solid rgba(255,255,255,0.3); }
+        .btn-secondary:hover { background: rgba(255,255,255,0.25); }
         
         /* Sections */
-        section {
-            padding: 5rem 2rem;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
+        section { padding: 5rem 2rem; max-width: 1200px; margin: 0 auto; }
         
-        .section-title {
-            text-align: center;
-            font-size: 2.2rem;
-            font-weight: 800;
-            margin-bottom: 1rem;
-            color: var(--dark);
-        }
-        
-        .section-subtitle {
-            text-align: center;
-            color: var(--gray);
-            margin-bottom: 3rem;
-            font-size: 1.1rem;
-        }
+        .section-title { text-align: center; font-size: 2.2rem; font-weight: 800; margin-bottom: 1rem; color: var(--dark); }
+        .section-subtitle { text-align: center; color: var(--gray); margin-bottom: 3rem; font-size: 1.1rem; }
         
         /* Features */
-        .features-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 2rem;
-        }
+        .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }
         
         .feature-card {
             background: white;
@@ -216,63 +173,18 @@
             transition: all 0.3s;
             border: 1px solid var(--border);
         }
-        
-        .feature-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-        }
-        
-        .feature-icon {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-        }
-        
-        .feature-card h3 {
-            font-size: 1.3rem;
-            margin-bottom: 0.5rem;
-            color: var(--dark);
-        }
-        
-        .feature-card p {
-            color: var(--gray);
-        }
+        .feature-card:hover { transform: translateY(-5px); box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+        .feature-icon { font-size: 2.5rem; margin-bottom: 1rem; }
+        .feature-card h3 { font-size: 1.3rem; margin-bottom: 0.5rem; color: var(--dark); }
+        .feature-card p { color: var(--gray); }
         
         /* Screenshots */
-        .screenshots {
-            background: white;
-        }
-        
-        .screenshot-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            margin-top: 2rem;
-        }
-        
-        .screenshot-item {
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-            transition: transform 0.3s;
-        }
-        
-        .screenshot-item:hover {
-            transform: scale(1.02);
-        }
-        
-        .screenshot-item img {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-        
-        .screenshot-caption {
-            background: var(--dark);
-            color: white;
-            padding: 1rem;
-            text-align: center;
-            font-size: 0.95rem;
-        }
+        .screenshots { background: white; }
+        .screenshot-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 2rem; }
+        .screenshot-item { border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.1); transition: transform 0.3s; }
+        .screenshot-item:hover { transform: scale(1.02); }
+        .screenshot-item img { width: 100%; height: auto; display: block; }
+        .screenshot-caption { background: var(--dark); color: white; padding: 1rem; text-align: center; font-size: 0.95rem; }
         
         /* Stats */
         .stats {
@@ -283,38 +195,13 @@
             margin: 3rem auto;
             max-width: 1200px;
         }
-        
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 2rem;
-            text-align: center;
-        }
-        
-        .stat-number {
-            font-size: 3rem;
-            font-weight: 800;
-            color: var(--secondary);
-            margin-bottom: 0.5rem;
-        }
-        
-        .stat-label {
-            font-size: 1rem;
-            opacity: 0.9;
-        }
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; text-align: center; }
+        .stat-number { font-size: 3rem; font-weight: 800; color: var(--secondary); margin-bottom: 0.5rem; }
+        .stat-label { font-size: 1rem; opacity: 0.9; }
         
         /* Contact */
-        .contact {
-            background: white;
-        }
-        
-        .contact-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1.5rem;
-            margin-top: 2rem;
-        }
-        
+        .contact { background: white; }
+        .contact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
         .contact-card {
             background: var(--light);
             padding: 1.5rem;
@@ -325,38 +212,39 @@
             transition: all 0.3s;
             border: 2px solid transparent;
         }
-        
-        .contact-card:hover {
-            border-color: var(--primary);
-            transform: translateY(-3px);
+        .contact-card:hover { border-color: var(--primary); transform: translateY(-3px); }
+        .contact-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .contact-card h4 { margin-bottom: 0.3rem; }
+        .contact-card p { color: var(--gray); font-size: 0.9rem; }
+
+        /* International Licensing Box */
+        .intl-licensing {
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+            border: 2px solid var(--primary);
+            border-radius: 16px;
+            padding: 2rem;
+            margin-top: 3rem;
+            text-align: center;
         }
-        
-        .contact-icon {
-            font-size: 2rem;
-            margin-bottom: 0.5rem;
-        }
-        
-        .contact-card h4 {
-            margin-bottom: 0.3rem;
-        }
-        
-        .contact-card p {
-            color: var(--gray);
-            font-size: 0.9rem;
-        }
+        .intl-licensing h3 { color: var(--primary-dark); margin-bottom: 1rem; font-size: 1.4rem; }
+        .intl-licensing p { color: var(--dark); margin-bottom: 1.5rem; }
+        .intl-steps { display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; text-align: left; }
+        body.rtl .intl-steps { text-align: right; }
+        .intl-step { flex: 1; min-width: 200px; background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+        .intl-step strong { color: var(--primary); display: block; margin-bottom: 0.5rem; }
         
         /* Footer */
         footer {
             background: var(--dark);
             color: white;
             text-align: center;
-            padding: 2rem;
+            padding: 2.5rem 2rem;
+            border-top: 4px solid var(--primary);
         }
-        
-        footer a {
-            color: var(--secondary);
-            text-decoration: none;
-        }
+        footer p { margin: 0.5rem 0; opacity: 0.9; font-size: 0.95rem; }
+        footer strong { color: white; font-weight: 600; }
+        footer a { color: var(--secondary); text-decoration: none; transition: color 0.3s; }
+        footer a:hover { color: white; }
         
         /* Responsive */
         @media (max-width: 768px) {
@@ -364,23 +252,15 @@
             .hero .subtitle { font-size: 1.1rem; }
             .section-title { font-size: 1.8rem; }
             section { padding: 3rem 1rem; }
+            .intl-steps { flex-direction: column; }
         }
         
         /* Animation */
         @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
         }
-        
-        .hero-content, .feature-card, .screenshot-item {
-            animation: fadeInUp 0.8s ease-out;
-        }
+        .hero-content, .feature-card, .screenshot-item { animation: fadeInUp 0.8s ease-out; }
     </style>
 </head>
 <body>
@@ -389,7 +269,7 @@
     <div class="nav-container">
         <div class="logo">
             <span>🏗️</span>
-            <span data-en="ToolkitBIM" data-fa="تولکیت‌بی‌آی‌ام">ToolkitBIM</span>
+            <span data-en="ToolkitBIM" data-fa="ToolkitBIM">ToolkitBIM</span>
         </div>
         <button class="lang-switch" onclick="toggleLanguage()">
             <span id="langBtn">فارسی 🇮🇷</span>
@@ -401,9 +281,9 @@
     <div class="hero-content">
         <div class="badges">
             <span class="badge">v1.0.0</span>
-            <span class="badge" data-en="Revit 2022-2025" data-fa="رویت ۲۰۲۲-۲۰۲۵">Revit 2022-2025</span>
+            <span class="badge" data-en="Revit 2022+" data-fa="رویت ۲۰۲۲ به بعد">Revit 2022+</span>
             <span class="badge" data-en="Windows 10/11" data-fa="ویندوز ۱۰/۱۱">Windows 10/11</span>
-            <span class="badge" data-en="Offline" data-fa="آفلاین">Offline</span>
+            <span class="badge" data-en="100% Offline" data-fa="کاملاً آفلاین">100% Offline</span>
         </div>
         
         <h1 data-en="ToolkitBIM Quantifier" data-fa="پلاگین ToolkitBIM Quantifier">ToolkitBIM Quantifier</h1>
@@ -414,7 +294,7 @@
         <div class="cta-buttons">
             <a href="https://github.com/dotnetbim/toolkitbim-quantifier/releases/latest" class="btn btn-primary" target="_blank">
                 <span>📥</span>
-                <span data-en="Download Free Trial" data-fa="دانلود نسخه آزمایشی">Download Free Trial</span>
+                <span data-en="Download Latest Release" data-fa="دانلود آخرین نسخه">Download Latest Release</span>
             </a>
             <a href="https://t.me/toolkitbim" class="btn btn-secondary" target="_blank">
                 <span>💬</span>
@@ -464,52 +344,41 @@
             <h3 data-en="Comprehensive Takeoff" data-fa="متره جامع">Comprehensive Takeoff</h3>
             <p data-en="Walls, Floors, Roofs, Doors, Windows and more. Extract length, area, volume, and openings automatically." 
                data-fa="دیوار، کف، سقف، در و پنجره و بیشتر. استخراج طول، مساحت، حجم و بازشوها به صورت خودکار.">
-                Walls, Floors, Roofs, Doors, Windows and more. Extract length, area, volume, and openings automatically.
             </p>
         </div>
-        
         <div class="feature-card">
             <div class="feature-icon">💰</div>
             <h3 data-en="Smart Pricing" data-fa="قیمت‌گذاری هوشمند">Smart Pricing</h3>
             <p data-en="Set prices by element type, apply waste factors automatically, and save pricing templates for future projects." 
                data-fa="تعیین قیمت بر اساس نوع عنصر، اعمال خودکار ضریب ضایعات و ذخیره الگوهای قیمت برای پروژه‌های آینده.">
-                Set prices by element type, apply waste factors automatically, and save pricing templates for future projects.
             </p>
         </div>
-        
         <div class="feature-card">
             <div class="feature-icon">📄</div>
             <h3 data-en="Professional PDF Reports" data-fa="گزارش‌های PDF حرفه‌ای">Professional PDF Reports</h3>
             <p data-en="Generate beautiful reports with your company logo, automatic dates (Shamsi/Gregorian), and color-coded tables." 
                data-fa="تولید گزارش‌های زیبا با لوگوی شرکت شما، تاریخ خودکار (شمسی/میلادی) و جداول رنگی.">
-                Generate beautiful reports with your company logo, automatic dates (Shamsi/Gregorian), and color-coded tables.
             </p>
         </div>
-        
         <div class="feature-card">
             <div class="feature-icon">📊</div>
             <h3 data-en="Visual Dashboard" data-fa="داشبورد بصری">Visual Dashboard</h3>
             <p data-en="Pie charts for cost distribution, bar charts for comparison, and real-time visualization of your data." 
                data-fa="نمودار دایره‌ای برای توزیع هزینه، نمودار میله‌ای برای مقایسه و تجسم بلادرنگ داده‌های شما.">
-                Pie charts for cost distribution, bar charts for comparison, and real-time visualization of your data.
             </p>
         </div>
-        
         <div class="feature-card">
             <div class="feature-icon">📊</div>
             <h3 data-en="Excel Export" data-fa="خروجی اکسل">Excel Export</h3>
             <p data-en="CSV/Excel export with standard UTF-8 encoding, fully compatible with accounting software." 
                data-fa="خروجی CSV/Excel با انکدینگ استاندارد UTF-8، کاملاً سازگار با نرم‌افزارهای حسابداری.">
-                CSV/Excel export with standard UTF-8 encoding, fully compatible with accounting software.
             </p>
         </div>
-        
         <div class="feature-card">
             <div class="feature-icon">🌍</div>
             <h3 data-en="Multi-Language" data-fa="چندزبانه">Multi-Language</h3>
             <p data-en="Full Persian (RTL + Shamsi Calendar) & English (LTR + Gregorian Calendar) support out of the box." 
                data-fa="پشتیبانی کامل از فارسی (راست‌چین + تقویم شمسی) و انگلیسی (چپ‌چین + تقویم میلادی).">
-                Full Persian (RTL + Shamsi Calendar) & English (LTR + Gregorian Calendar) support out of the box.
             </p>
         </div>
     </div>
@@ -541,39 +410,6 @@
     </div>
 </section>
 
-<section>
-    <h2 class="section-title" data-en="Get Started in 3 Steps" data-fa="در ۳ قدم شروع کنید">Get Started in 3 Steps</h2>
-    
-    <div class="features-grid">
-        <div class="feature-card">
-            <div class="feature-icon">📥</div>
-            <h3 data-en="1. Download" data-fa="۱. دانلود">1. Download</h3>
-            <p data-en="Download the free trial version from GitHub Releases. No credit card required." 
-               data-fa="نسخه آزمایشی رایگان را از GitHub Releases دانلود کنید. بدون نیاز به کارت اعتباری.">
-                Download the free trial version from GitHub Releases. No credit card required.
-            </p>
-        </div>
-        
-        <div class="feature-card">
-            <div class="feature-icon">🔑</div>
-            <h3 data-en="2. Activate" data-fa="۲. فعال‌سازی">2. Activate</h3>
-            <p data-en="Send your Hardware ID to our email and receive your license key within 24 hours." 
-               data-fa="شناسه سخت‌افزاری خود را به ایمیل ما ارسال کنید و کلید لایسنس را ظرف ۲۴ ساعت دریافت کنید.">
-                Send your Hardware ID to our email and receive your license key within 24 hours.
-            </p>
-        </div>
-        
-        <div class="feature-card">
-            <div class="feature-icon">🚀</div>
-            <h3 data-en="3. Quantify" data-fa="۳. متره کنید">3. Quantify</h3>
-            <p data-en="Open Revit, click the BIM Quantifier button, and generate professional reports in seconds." 
-               data-fa="رویت را باز کنید، روی دکمه BIM Quantifier کلیک کنید و در چند ثانیه گزارش‌های حرفه‌ای تولید کنید.">
-                Open Revit, click the BIM Quantifier button, and generate professional reports in seconds.
-            </p>
-        </div>
-    </div>
-</section>
-
 <section class="contact">
     <h2 class="section-title" data-en="Get In Touch" data-fa="تماس با ما">Get In Touch</h2>
     <p class="section-subtitle" data-en="We're here to help you succeed" data-fa="ما اینجا هستیم تا به موفقیت شما کمک کنیم">
@@ -586,34 +422,55 @@
             <h4 data-en="Email" data-fa="ایمیل">Email</h4>
             <p>mj.qahremani@gmail.com</p>
         </a>
-        
         <a href="https://t.me/toolkitbim" class="contact-card" target="_blank">
             <div class="contact-icon">💬</div>
             <h4 data-en="Telegram" data-fa="تلگرام">Telegram</h4>
             <p>@toolkitbim</p>
         </a>
-        
         <a href="https://linkedin.com/in/mohamad-qahremani-0a581b3b2" class="contact-card" target="_blank">
             <div class="contact-icon">💼</div>
             <h4 data-en="LinkedIn" data-fa="لینکدین">LinkedIn</h4>
             <p data-en="Mohamad Javad Ghahremani" data-fa="محمد جواد قهرمانی">Mohamad Javad Ghahremani</p>
         </a>
-        
         <a href="https://github.com/dotnetbim/toolkitbim-quantifier" class="contact-card" target="_blank">
             <div class="contact-icon">🐙</div>
             <h4>GitHub</h4>
             <p data-en="View Source & Docs" data-fa="مشاهده مستندات">View Source & Docs</p>
         </a>
     </div>
+
+    <!-- International Licensing Section (Professional Crypto Workflow) -->
+    <div class="intl-licensing">
+        <h3 data-en="🌍 International Enterprise Licensing" data-fa="🌍 صدور لایسنس بین‌المللی (ویژه خارج از کشور)">🌍 International Enterprise Licensing</h3>
+        <p data-en="We accept secure cryptocurrency payments (USDT - TRC20) for international clients. Follow our streamlined process:" 
+           data-fa="ما پرداخت امن با رمز ارز (USDT - شبکه TRC20) را برای مشتریان بین‌المللی می‌پذیریم. فرآیند سیستماتیک ما به شرح زیر است:">
+        </p>
+        <div class="intl-steps">
+            <div class="intl-step">
+                <strong data-en="1. Request Invoice" data-fa="۱. درخواست فاکتور">1. Request Invoice</strong>
+                <span data-en="Contact us via Email or Telegram to request a formal pricing invoice." 
+                      data-fa="از طریق ایمیل یا تلگرام برای دریافت فاکتور رسمی قیمت تماس بگیرید."></span>
+            </div>
+            <div class="intl-step">
+                <strong data-en="2. Secure Payment" data-fa="۲. پرداخت امن">2. Secure Payment</strong>
+                <span data-en="Receive our official USDT (TRC20) wallet address and complete the transfer." 
+                      data-fa="آدرس کیف پول رسمی USDT (شبکه TRC20) را دریافت و انتقال را انجام دهید."></span>
+            </div>
+            <div class="intl-step">
+                <strong data-en="3. Activation" data-fa="۳. فعال‌سازی">3. Activation</strong>
+                <span data-en="Send the Transaction Hash (TxID) and your Hardware ID. License delivered within 24h." 
+                      data-fa="شناسه تراکنش (TxID) و Hardware ID خود را ارسال کنید. لایسنس ظرف ۲۴ ساعت تحویل داده می‌شود."></span>
+            </div>
+        </div>
+    </div>
 </section>
 
 <footer>
-    <p>
-        <span data-en="Built with ❤️ in Iran by" data-fa="ساخته شده با ❤️ در ایران توسط">Built with ❤️ in Iran by</span>
-        <strong>Mohamad Javad Ghahremani</strong>
-    </p>
-    <p style="margin-top: 0.5rem; opacity: 0.8;">
-        © 2026 ToolkitBIM (dotnetbim). <span data-en="All rights reserved." data-fa="تمامی حقوق محفوظ است.">All rights reserved.</span>
+    <p><strong>© 2026 ToolkitBIM.</strong></p>
+    <p data-en="Developed by Mohamad Javad Ghahremani." data-fa="توسعه یافته توسط محمد جواد قهرمانی.">Developed by Mohamad Javad Ghahremani.</p>
+    <p style="margin-top: 1rem; font-size: 0.85rem; opacity: 0.7;">
+        <a href="https://github.com/dotnetbim/toolkitbim-quantifier" target="_blank">GitHub Repository</a> • 
+        <a href="mailto:mj.qahremani@gmail.com">Support</a>
     </p>
 </footer>
 
@@ -625,12 +482,10 @@
         document.body.classList.toggle('rtl', currentLang === 'fa');
         document.documentElement.lang = currentLang;
         
-        // Update all translatable elements
         document.querySelectorAll('[data-en]').forEach(el => {
             el.textContent = el.getAttribute(`data-${currentLang}`);
         });
         
-        // Update language button
         document.getElementById('langBtn').textContent = currentLang === 'en' ? 'فارسی 🇮🇷' : 'English 🇬🇧';
     }
 </script>
