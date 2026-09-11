@@ -1,110 +1,111 @@
-<div align="center">
+# 🏗️ BIM Quantifier Pro
 
-# 🏗️ ToolkitBIM Quantifier (BIM Quantifier Pro)
+**Professional BIM Quantity Takeoff & Cost Estimation for Revit**
 
-### Professional BIM Quantity Takeoff & Cost Estimation for Revit
+Version 1.0.0 | 2026 | Developed by ToolKitBIM
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
-![Revit](https://img.shields.io/badge/Revit-2022--2025-green)
-![License](https://img.shields.io/badge/license-Proprietary-orange)
-![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-lightgrey)
-![Downloads](https://img.shields.io/github/downloads/dotnetbim/toolkitbim-quantifier/total?color=green)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-[📥 Download Latest](https://github.com/dotnetbim/toolkitbim-quantifier/releases/latest) | 
-[💬 Telegram Support](https://t.me/toolkitbim) | 
-[💼 LinkedIn](https://linkedin.com/in/mohamad-qahremani-0a581b3b2)
+## ✨ WHY BIM QUANTIFIER PRO?
 
----
+In the fast-paced world of construction, time is money. 
+Traditional quantity takeoff methods are:
 
-### 🌐 Select Your Language
+- ❌ **Time-consuming** (20-40 hours per project)
+- ❌ **Error-prone** (human calculation mistakes)
+- ❌ **Difficult to update** (any model change = redo)
+- ❌ **Unprofessional reports**
 
-[🇬🇧 English Documentation](#-english)  •  [🇮🇷 مستندات فارسی](#-فارسی)
-
-</div>
-
----
-
-<a name="english"></a>
-
-# 🇬🇧 English
-
-### 🎯 WHY BIM QUANTIFIER PRO?
-
-In the fast-paced world of construction, time is money. Traditional quantity takeoff methods are time-consuming, error-prone, and difficult to update. 
-
-**ToolkitBIM Quantifier** transforms this process:
+**BIM Quantifier Pro** transforms this process:
 
 - ✅ Complete takeoff in **UNDER 1 MINUTE**
 - ✅ **100% ACCURACY** (direct from BIM model)
 - ✅ **AUTO-UPDATE** with model changes
-- ✅ **PROFESSIONAL PDF reports** with your company logo
+- ✅ **PROFESSIONAL PDF reports** with your logo
 
-### ✨ KEY FEATURES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-- 🏗️ **Comprehensive Takeoff:** Walls, Floors, Roofs, Doors, Windows (and more elements in future updates). Extracts Length, Area, Volume, and Openings.
-- 💰 **Smart Pricing:** Set prices by element type, apply waste factors automatically, and save pricing templates. Supports multiple currencies.
-- 📊 **Visual Dashboard:** Pie charts for cost distribution, bar charts for comparison, and real-time visualization.
-- 📄 **Professional PDF Reports:** Includes your company logo, automatic date (Shamsi/Gregorian), color-coded tables, and electronic signature.
-- 📊 **CSV/Excel Export:** Standard UTF-8 encoding, fully compatible with accounting software.
-- 🌍 **Multi-Language:** Full Persian (RTL + Shamsi Calendar) & English (LTR + Gregorian Calendar).
-- 🔍 **Advanced Filters:** Filter by Level, Element Type, or use quick search.
+## 🏗️ SUPPORTED ELEMENTS
 
----
+| Element | Extracted Data |
+|---------|----------------|
+| 🧱 **Walls** | Length, Thickness, Area, Volume, Openings |
+| 🏠 **Floors** | Area, Thickness, Volume, Perimeter |
+| 🏡 **Roofs** | Area, Thickness, Volume, Slope |
+| 🚪 **Doors** | Dimensions, Area, Host Wall |
+| 🪟 **Windows** | Dimensions, Area, Sill Height |
 
-### 📸 Interface & Reports
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-#### 🖥️ Main Interface
-<div align="center">
-  <img src="Screenshots/main-window-EN.png" alt="Main Window English" width="100%">
-  <br>
-  <em>Main dashboard with real-time quantity takeoff and visual charts</em>
-</div>
+## 💎 KEY FEATURES
 
-#### 📄 PDF Reports (English Version)
+- 💰 **Smart Pricing:** Set prices, apply waste factors, save templates (7 currencies supported).
+- 📊 **Visual Dashboard:** Pie/bar charts for cost distribution and real-time visualization.
+- 📄 **Professional PDF Reports:** Company logo, Shamsi/Gregorian dates, color-coded tables, e-signature.
+- 📊 **CSV Export:** Standard UTF-8, fully compatible with accounting software.
+- 🌍 **Multi-Language:** Full Persian (RTL + Shamsi) & English (LTR + Gregorian).
+- 🔍 **Advanced Filters:** Filter by Level, Element Type, or quick search.
 
-| Page 1: Summary | Page 2: Detailed Tables |
-| :---: | :---: |
-| ![Report EN 1](Screenshots/report-sample-EN-1.png) | ![Report EN 2](Screenshots/report-sample-EN-2.png) |
-| **Page 3: Charts & Analytics** | **Page 4: Final Summary** |
-| ![Report EN 3](Screenshots/report-sample-EN-3.png) | ![Report EN 4](Screenshots/report-sample-EN-4.png) |
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-#### 📊 Excel Export
-<div align="center">
-  <img src="Screenshots/excel-output.png" alt="Excel Output" width="100%">
-  <br>
-  <em>CSV/Excel export compatible with accounting software</em>
-</div>
+## 📦 SYSTEM REQUIREMENTS
 
----
+| Requirement | Specification |
+|-------------|---------------|
+| **Revit Version** | **2020, 2021, 2022, 2023, 2024, 2025, 2026** |
+| Operating System | Windows 10 / 11 (64-bit) |
+| RAM | 8 GB min (16 GB recommended) |
+| Disk Space | 50 MB |
+| Internet | NOT required (fully offline) |
 
-### ⚙️ SYSTEM REQUIREMENTS
+> ✅ **Automatic Version Detection:** The installer automatically detects your installed Revit version(s) and configures the plugin accordingly. No manual setup required!
 
-- **Revit Version:** 2022 or later
-- **Operating System:** Windows 10 / 11 (64-bit)
-- **RAM:** 8 GB minimum (16 GB recommended)
-- **Disk Space:** 50 MB
-- **Internet:** NOT required (Fully Offline)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-### 🚀 INSTALLATION
+## ⚠️ IMPORTANT: First Launch Security Notice
 
-1. Close Revit completely (Save your work first!).
-2. Run `ToolkitBIM-Quantifier-Setup.exe` (Right-click → "Run as administrator").
-3. Follow the installation wizard (Next → Install → Finish).
-4. Open Revit → Look for the **"BIM Quantifier"** tab in the ribbon.
+When you open Revit for the first time after installation, you will see this standard message:
+> *"The publisher of this add-in could not be verified. What do you want to do?"*
 
-### 🔑 LICENSE ACTIVATION
+### ✅ This is completely normal and expected!
+Revit displays this for **ALL third-party add-ins** not digitally signed by Autodesk. This is a standard security feature, not an error.
 
-1. Open Revit and click the "BIM Quantifier Pro" button.
-2. The activation dialog appears. Copy your **"Hardware ID"**.
-3. Send the Hardware ID to: 📧 **mj.qahremani@gmail.com**
-4. Receive your unique license key and enter it in the dialog.
-5. Start quantifying! 🎉
+### 🎯 What to do:
+**Simply click "Always Load"** ✅
+This tells Revit to trust BIM Quantifier Pro. You will **NOT** see this message again.
 
-*(Free version available for testing up to 50 elements).*
+*(Note: We are working on obtaining a digital code signing certificate for future versions. Until then, "Always Load" is the standard, safe practice used by thousands of BIM professionals).*
 
-### 📞 SUPPORT & LICENSING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-For pricing inquiries, team licenses, or technical support:
+## 🚀 INSTALLATION & ACTIVATION
+
+1. **Close Revit** completely.
+2. Run `BIMQuantifierPro_Setup_v1.0.0.exe` as **Administrator**.
+3. Follow the wizard (it will auto-detect your Revit versions).
+4. Open Revit → Look for the **"ToolKitBIM"** tab in the ribbon.
+5. Click **"BIM Quantifier Pro"** → Copy your **Hardware ID**.
+6. Send Hardware ID to: 📧 **mj.qahremani@gmail.com**
+7. Receive your unique license key and activate! 🎉
+
+> 💡 **Free Trial:** You can use the plugin for free up to 50 elements to test all features before purchasing.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 📦 LICENSE PACKAGES
+
+| Package | Users | Price (Approx.) | Best For |
+|---------|-------|-----------------|----------|
+| **FREE** | 1 | $0 | Testing (up to 50 elements) |
+| **STARTER** | 1 | $49 / year | Freelancers & Independent Engineers |
+| **TEAM** | 5 | $149 / year | Small to Medium Engineering Offices |
+| **ENTERPRISE** | 50 | $399 / year | Large Companies & Organizations |
+
+*(For exact pricing in IRR or international payment via USDT, please contact us).*
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 📞 SUPPORT & CONTACT
 
 - 📧 **Email:** mj.qahremani@gmail.com
 - 💬 **Telegram:** [@toolkitbim](https://t.me/toolkitbim)
@@ -113,113 +114,13 @@ For pricing inquiries, team licenses, or technical support:
 
 ---
 
-<a name="فارسی"></a>
-
-<div align="center">
-
-# 🇮🇷 فارسی
-
-### پلاگین حرفه‌ای متره برآورد و قیمت‌گذاری رویت
-
-[📥 دانلود آخرین نسخه](https://github.com/dotnetbim/toolkitbim-quantifier/releases/latest) | 
-[💬 پشتیبانی تلگرام](https://t.me/toolkitbim) | 
-[💼 لینکدین](https://linkedin.com/in/mohamad-qahremani-0a581b3b2)
-
-</div>
-
-### 🎯 چرا ToolkitBIM Quantifier؟
-
-در دنیای پرشتاب ساخت‌وساز، زمان برابر با پول است. روش‌های سنتی متره برآورد زمان‌بر، دارای خطای انسانی و به‌روزرسانی آن‌ها دشوار است.
-
-**پلاگین ToolkitBIM Quantifier** این فرآیند را متحول می‌کند:
-
-- ✅ متره کامل در **کمتر از ۱ دقیقه**
-- ✅ **دقت ۱۰۰٪** (استخراج مستقیم از مدل BIM)
-- ✅ **به‌روزرسانی خودکار** با تغییرات مدل
-- ✅ **گزارش‌های PDF حرفه‌ای** همراه با لوگوی شرکت شما
-
-### ✨ قابلیت‌های کلیدی
-
-- 🏗️ **متره جامع:** دیوار، کف، سقف، در و پنجره (و عناصر بیشتر در آپدیت‌های آینده). استخراج طول، مساحت، حجم و بازشوها.
-- 💰 **قیمت‌گذاری هوشمند:** تعیین قیمت بر اساس نوع عنصر، اعمال خودکار ضریب ضایعات و ذخیره الگوهای قیمت. پشتیبانی از چندین ارز.
-- 📊 **داشبورد بصری:** نمودار دایره‌ای برای توزیع هزینه، نمودار میله‌ای برای مقایسه و تجسم بلادرنگ.
-- 📄 **گزارش‌های PDF حرفه‌ای:** شامل لوگوی شرکت، تاریخ خودکار (شمسی/میلادی)، جداول رنگی و امضای الکترونیک.
-- 📊 **خروجی CSV/Excel:** انکدینگ استاندارد UTF-8، کاملاً سازگار با نرم‌افزارهای حسابداری.
-- 🌍 **چندزبانه:** فارسی کامل (راست‌چین + تقویم شمسی) و انگلیسی (چپ‌چین + تقویم میلادی).
-- 🔍 **فیلترهای پیشرفته:** فیلتر بر اساس تراز (Level)، نوع عنصر یا جستجوی سریع.
-
----
-
-### 📸 تصاویر محیط برنامه و گزارش‌ها
-
-#### 🖥️ محیط اصلی برنامه
-<div align="center">
-  <img src="Screenshots/main-window-FA.png" alt="محیط اصلی فارسی" width="100%">
-  <br>
-  <em>داشبورد اصلی با متره بلادرنگ و نمودارهای بصری</em>
-</div>
-
-#### 📄 گزارش‌های PDF (نسخه فارسی)
-
-| صفحه ۱: خلاصه | صفحه ۲: جداول جزئیات |
-| :---: | :---: |
-| ![گزارش FA 1](Screenshots/report-sample-FA-1.png) | ![گزارش FA 2](Screenshots/report-sample-FA-2.png) |
-| **صفحه ۳: نمودارها** | **صفحه ۴: خلاصه نهایی** |
-| ![گزارش FA 3](Screenshots/report-sample-FA-3.png) | ![گزارش FA 4](Screenshots/report-sample-FA-4.png) |
-
-#### 📊 خروجی اکسل
-<div align="center">
-  <img src="Screenshots/excel-output.png" alt="خروجی اکسل" width="100%">
-  <br>
-  <em>خروجی سازگار با نرم‌افزارهای حسابداری</em>
-</div>
-
----
-
-### ⚙️ پیش‌نیازهای سیستم
-
-- **نسخه رویت:** ۲۰۲۲ و بالاتر
-- **سیستم‌عامل:** ویندوز ۱۰ / ۱۱ (۶۴ بیتی)
-- **رم:** حداقل ۸ گیگابایت (۱۶ گیگابایت پیشنهاد می‌شود)
-- **فضای دیسک:** ۵۰ مگابایت
-- **اینترنت:** نیاز نیست (کاملاً آفلاین)
-
-### 🚀 راهنمای نصب
-
-۱. رویت را کاملاً ببندید (ابتدا کار خود را ذخیره کنید).
-۲. فایل `ToolkitBIM-Quantifier-Setup.exe` را اجرا کنید (کلیک راست → Run as administrator).
-۳. مراحل نصب را دنبال کنید (Next → Install → Finish).
-۴. رویت را باز کنید → به دنبال تب **"BIM Quantifier"** در ریبون باشید.
-
-### 🔑 فعال‌سازی لایسنس
-
-۱. رویت را باز کرده و روی دکمه "BIM Quantifier Pro" کلیک کنید.
-۲. پنجره فعال‌سازی باز می‌شود. **"Hardware ID"** خود را کپی کنید.
-۳. شناسه سخت‌افزاری را به این ایمیل ارسال کنید: 📧 **mj.qahremani@gmail.com**
-۴. کلید لایسنس اختصاصی خود را دریافت و در پنجره وارد کنید.
-۵. از پلاگین استفاده کنید! 🎉
-
-*(نسخه رایگان برای تست تا ۵۰ عنصر در دسترس است).*
-
-### 📞 پشتیبانی و استعلام قیمت
-
-برای استعلام قیمت، لایسنس تیمی یا پشتیبانی فنی:
-
-- 📧 **ایمیل:** mj.qahremani@gmail.com
-- 💬 **تلگرام:** [@toolkitbim](https://t.me/toolkitbim)
-- 💼 **لینکدین:** [محمد جواد قهرمانی](https://linkedin.com/in/mohamad-qahremani-0a581b3b2)
-- ⏰ **ساعات پشتیبانی:** شنبه تا چهارشنبه (۹ صبح تا ۶ عصر)، پنجشنبه (۹ صبح تا ۱ ظهر)
-
----
-
 <div align="center">
 
 **⭐ If this plugin helps you, please star this repository! ⭐**  
 **⭐ اگر این پلاگین به کارتان آمد، لطفاً به مخزن ستاره بدهید! ⭐**
 
-Built with ❤️ in Iran by **Mohamad Javad Ghahremani**  
-© 2026 ToolkitBIM (dotnetbim). All rights reserved.
-
-[⬆ Back to top](#toolkitbim-quantifier-bim-quantifier-pro)
+**ToolKitBIM**  
+*Founded & Developed by Mohamad Javad Ghahremani*  
+© 2026 ToolKitBIM. All rights reserved.
 
 </div>
