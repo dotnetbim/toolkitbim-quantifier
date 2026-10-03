@@ -385,23 +385,29 @@
 </section>
 
 <section class="screenshots">
-    <h2 class="section-title" data-en="See It In Action" data-fa="محیط برنامه و گزارش‌ها">See It In Action</h2>
-    <p class="section-subtitle" data-en="Professional interface and beautiful reports" data-fa="رابط کاربری حرفه‌ای و گزارش‌های زیبا">
-        Professional interface and beautiful reports
+    <h2 class="section-title" data-en="See It In Action" data-fa="محیط برنامه و گزارش‌ها را ببینید">See It In Action</h2>
+    <p class="section-subtitle" data-en="Professional interface and beautiful reports in under a minute" data-fa="رابط کاربری حرفه‌ای و گزارش‌های زیبا در کمتر از یک دقیقه">
+        Professional interface and beautiful reports in under a minute
     </p>
     
-    <div class="screenshot-grid">
-        <div class="screenshot-item">
-            <img src="Screenshots/main-window-EN.png" alt="Main Interface">
-            <div class="screenshot-caption" data-en="Main Dashboard" data-fa="داشبورد اصلی">Main Dashboard</div>
-        </div>
+    <div style="max-width: 800px; margin: 0 auto;">
+        <!-- English Demo Video -->
+        <video id="demo-video-en" class="lang-en" width="100%" controls style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.15); display: block;">
+            <source src="videos/demo-en.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <!-- Persian Demo Video -->
+        <video id="demo-video-fa" class="lang-fa" width="100%" controls style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.15); display: none;">
+            <source src="videos/demo-fa.mp4" type="video/mp4">
+            مرورگر شما از پخش ویدیو پشتیبانی نمی‌کند.
+        </video>
+    </div>
+
+    <div class="screenshot-grid" style="margin-top: 3rem;">
         <div class="screenshot-item">
             <img src="Screenshots/report-sample-EN-1.png" alt="PDF Report">
             <div class="screenshot-caption" data-en="Professional PDF Report" data-fa="گزارش PDF حرفه‌ای">Professional PDF Report</div>
-        </div>
-        <div class="screenshot-item">
-            <img src="Screenshots/report-sample-EN-3.png" alt="Charts">
-            <div class="screenshot-caption" data-en="Visual Charts & Analytics" data-fa="نمودارها و تحلیل‌های بصری">Visual Charts & Analytics</div>
         </div>
         <div class="screenshot-item">
             <img src="Screenshots/excel-output.png" alt="Excel Export">
@@ -482,11 +488,27 @@
         document.body.classList.toggle('rtl', currentLang === 'fa');
         document.documentElement.lang = currentLang;
         
+        // Update all translatable text elements
         document.querySelectorAll('[data-en]').forEach(el => {
             el.textContent = el.getAttribute(`data-${currentLang}`);
         });
         
+        // Update language button text
         document.getElementById('langBtn').textContent = currentLang === 'en' ? 'فارسی 🇮🇷' : 'English 🇬🇧';
+
+        // 🎬 NEW: Show/Hide Demo Videos based on language
+        const videoEn = document.getElementById('demo-video-en');
+        const videoFa = document.getElementById('demo-video-fa');
+        
+        if (currentLang === 'en') {
+            videoEn.style.display = 'block';
+            videoFa.style.display = 'none';
+            videoEn.pause(); // Stop Persian video if it was playing
+        } else {
+            videoEn.style.display = 'none';
+            videoFa.style.display = 'block';
+            videoFa.pause(); // Stop English video if it was playing
+        }
     }
 </script>
 
