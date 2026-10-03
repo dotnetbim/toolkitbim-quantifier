@@ -280,11 +280,11 @@
 <section class="hero">
     <div class="hero-content">
         <div class="badges">
-            <span class="badge">v1.0.0</span>
-            <span class="badge" data-en="Revit 2022+" data-fa="رویت ۲۰۲۲ به بعد">Revit 2022+</span>
-            <span class="badge" data-en="Windows 10/11" data-fa="ویندوز ۱۰/۱۱">Windows 10/11</span>
-            <span class="badge" data-en="100% Offline" data-fa="کاملاً آفلاین">100% Offline</span>
-        </div>
+    <span class="badge">v1.0.1</span>
+    <span class="badge" data-en="Revit 2020-2026" data-fa="رویت ۲۰۲۰ تا ۲۰۲۶">Revit 2020-2026</span>
+    <span class="badge" data-en="Windows 7/10/11" data-fa="ویندوز ۷/۱۰/۱۱">Windows 7/10/11</span>
+    <span class="badge" data-en="100% Offline" data-fa="کاملاً آفلاین">100% Offline</span>
+</div>
         
         <h1 data-en="ToolkitBIM Quantifier" data-fa="پلاگین ToolkitBIM Quantifier">ToolkitBIM Quantifier</h1>
         <p class="subtitle" data-en="Professional BIM Quantity Takeoff & Cost Estimation for Revit" data-fa="پلاگین حرفه‌ای متره برآورد و قیمت‌گذاری رویت">
@@ -390,27 +390,40 @@
         Professional interface and beautiful reports in under a minute
     </p>
     
-    <div style="max-width: 800px; margin: 0 auto;">
+    <div style="max-width: 900px; margin: 0 auto;">
         <!-- English Demo Video -->
-        <video id="demo-video-en" class="lang-en" width="100%" controls style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.15); display: block;">
+        <video id="demo-video-en" class="lang-en" width="100%" height="500" controls preload="metadata" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.15); display: block; background: #000;">
             <source src="videos/demo-en.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
 
         <!-- Persian Demo Video -->
-        <video id="demo-video-fa" class="lang-fa" width="100%" controls style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.15); display: none;">
+        <video id="demo-video-fa" class="lang-fa" width="100%" height="500" controls preload="metadata" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.15); display: none; background: #000;">
             <source src="videos/demo-fa.mp4" type="video/mp4">
             مرورگر شما از پخش ویدیو پشتیبانی نمی‌کند.
         </video>
+        
+        <p style="text-align: center; margin-top: 1rem; color: var(--gray); font-size: 0.9rem;">
+            <span data-en="💡 Tip: Click the play button to watch the demo" data-fa="💡 نکته: برای مشاهده دمو، روی دکمه پخش کلیک کنید">💡 Tip: Click the play button to watch the demo</span>
+        </p>
     </div>
 
+    <!-- بازگرداندن ۴ اسکرین‌شات با ارتفاع یکسان -->
     <div class="screenshot-grid" style="margin-top: 3rem;">
         <div class="screenshot-item">
-            <img src="Screenshots/report-sample-EN-1.png" alt="PDF Report">
+            <img src="Screenshots/main-window-EN.png" alt="Main Interface" style="height: 250px; object-fit: cover;">
+            <div class="screenshot-caption" data-en="Main Dashboard" data-fa="داشبورد اصلی">Main Dashboard</div>
+        </div>
+        <div class="screenshot-item">
+            <img src="Screenshots/report-sample-EN-1.png" alt="PDF Report" style="height: 250px; object-fit: cover;">
             <div class="screenshot-caption" data-en="Professional PDF Report" data-fa="گزارش PDF حرفه‌ای">Professional PDF Report</div>
         </div>
         <div class="screenshot-item">
-            <img src="Screenshots/excel-output.png" alt="Excel Export">
+            <img src="Screenshots/report-sample-EN-3.png" alt="Charts" style="height: 250px; object-fit: cover;">
+            <div class="screenshot-caption" data-en="Visual Charts & Analytics" data-fa="نمودارها و تحلیل‌های بصری">Visual Charts & Analytics</div>
+        </div>
+        <div class="screenshot-item">
+            <img src="Screenshots/excel-output.png" alt="Excel Export" style="height: 250px; object-fit: cover;">
             <div class="screenshot-caption" data-en="Excel/CSV Export" data-fa="خروجی اکسل">Excel/CSV Export</div>
         </div>
     </div>
@@ -483,8 +496,18 @@
 <script>
     let currentLang = 'en';
     
+    // اجرای اولیه هنگام لود صفحه
+    document.addEventListener('DOMContentLoaded', function() {
+        // تنظیم زبان پیش‌فرض
+        updateLanguage();
+    });
+    
     function toggleLanguage() {
         currentLang = currentLang === 'en' ? 'fa' : 'en';
+        updateLanguage();
+    }
+    
+    function updateLanguage() {
         document.body.classList.toggle('rtl', currentLang === 'fa');
         document.documentElement.lang = currentLang;
         
@@ -496,18 +519,20 @@
         // Update language button text
         document.getElementById('langBtn').textContent = currentLang === 'en' ? 'فارسی 🇮🇷' : 'English 🇬🇧';
 
-        // 🎬 NEW: Show/Hide Demo Videos based on language
+        // Show/Hide Demo Videos based on language
         const videoEn = document.getElementById('demo-video-en');
         const videoFa = document.getElementById('demo-video-fa');
         
-        if (currentLang === 'en') {
-            videoEn.style.display = 'block';
-            videoFa.style.display = 'none';
-            videoEn.pause(); // Stop Persian video if it was playing
-        } else {
-            videoEn.style.display = 'none';
-            videoFa.style.display = 'block';
-            videoFa.pause(); // Stop English video if it was playing
+        if (videoEn && videoFa) {
+            if (currentLang === 'en') {
+                videoEn.style.display = 'block';
+                videoFa.style.display = 'none';
+                videoEn.pause();
+            } else {
+                videoEn.style.display = 'none';
+                videoFa.style.display = 'block';
+                videoFa.pause();
+            }
         }
     }
 </script>
