@@ -6,7 +6,7 @@
 ### پلاگین حرفه‌ای متره برآورد و قیمت‌گذاری رویت
 
 ![Version](https://img.shields.io/badge/version-1.0.1--stable-blue)
-![Revit](https://img.shields.io/badge/Revit-2020--2026-green)
+![Revit](https://img.shields.io/badge/Revit-2020--2027-green)
 ![License](https://img.shields.io/badge/license-Proprietary-orange)
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-lightgrey)
 
@@ -64,7 +64,7 @@ When you open Revit for the first time, you may see: *"The publisher of this add
 ### 🚀 INSTALLATION & ACTIVATION
 1. Close Revit completely.
 2. Run `BIMQuantifierPro_Setup_v1.0.0.exe` as **Administrator**.
-3. The installer will auto-detect your Revit versions (2020-2026).
+3. The installer will auto-detect your Revit versions (2020-2027).
 4. Open Revit → Look for the **"ToolKitBIM"** tab in the ribbon.
 5. Click **"BIM Quantifier Pro"** → Copy your **Hardware ID**.
 6. Send Hardware ID to: 📧 **mj.qahremani@gmail.com**
